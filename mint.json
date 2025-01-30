@@ -127,6 +127,25 @@
 
     },
     {
+      "group": "Account",
+      "pages":[
+        "api-reference/endpoints/details-by-sessionid",
+        "api-reference/endpoints/details-by-accountid",
+        "api-reference/endpoints/add-favorite",
+        "api-reference/endpoints/add-to-watchlist",
+        "api-reference/endpoints/favorite-movies",
+        "api-reference/endpoints/favorite-tv",
+        "api-reference/endpoints/lists",
+        "api-reference/endpoints/rated-movies",
+        "api-reference/endpoints/rated-tv",
+        "api-reference/endpoints/rated-tv-episodes",
+        "api-reference/endpoints/movies-watchlist",
+        "api-reference/endpoints/tv-watchlist"
+      ]
+
+
+    },
+    {
       "group": "Glossary",
       "pages": [
         "api-reference/glossary"
