@@ -120,6 +120,7 @@
       "group": "Authentication",
       "pages":[
         "api-reference/endpoints/create-request-token",
+        "api-reference/endpoints/authenticateRequestToken",
         "api-reference/endpoints/create-session-id",
         "api-reference/endpoints/create-session-idwith-login",
         "api-reference/endpoints/delete-session"
