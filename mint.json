@@ -76,6 +76,40 @@
       ]
     },
     {
+      "group": "Overview",
+      "pages" :[
+        "api-reference/overview"
+      ]
+
+    },
+    {
+      "group": "Getting Started",
+      "pages":[
+        "api-reference/gettingstarted"
+      ]
+    },
+    {
+      "group": "Authentication",
+      "pages":[
+        "api-reference/authentication"
+      ]
+
+    },
+    {
+      "group": "Error Codes",
+      "pages":[
+        "api-reference/errorcodes"
+      ]
+
+    },
+    {
+      "group": "Rate Limit",
+      "pages": [
+        "api-reference/ratelimit"
+      ]
+
+    },
+    {
       "group": "Endpoint Examples",
       "pages": [
         "api-reference/endpoint/get",
