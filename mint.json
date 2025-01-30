@@ -117,6 +117,14 @@
 
     },
     {
+      "group": "Authentication",
+      "pages":[
+        "api-refernce/endpoints/create-request-token",
+        "api-reference/endpoints/create-session-id"
+      ]
+
+    },
+    {
       "group": "Glossary",
       "pages": [
         "api-reference/glossary"
