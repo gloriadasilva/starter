@@ -119,10 +119,10 @@
     {
       "group": "Authentication",
       "pages":[
-        "api-refernce/endpoints/create-request-token.mdx",
-        "api-reference/endpoints/create-session-id.mdx",
-        "api-reference/endpoints/create-session-idwith-login.mdx",
-        "api-reference/endpoints/delete-session.mdx"
+        "api-refernce/endpoints/create-request-token",
+        "api-reference/endpoints/create-session-id",
+        "api-reference/endpoints/create-session-idwith-login",
+        "api-reference/endpoints/delete-session"
       ]
 
     },
