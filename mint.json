@@ -117,6 +117,13 @@
 
     },
     {
+      "group": "Authenticate request",
+      "pages": [
+        "api-reference/authenticaterequesttoken"
+      ]
+
+    },
+    {
       "group": "Authentication",
       "pages":[
         "api-reference/endpoints/create-request-token",
