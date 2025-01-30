@@ -110,6 +110,20 @@
 
     },
     {
+      "group": "Release Dates",
+      "pages": [
+        "api-rederence/releasedates"
+      ]
+
+    },
+    {
+      "group": "Glossary",
+      "pages": [
+        "api-reference/glosary"
+      ]
+
+    },
+    {
       "group": "Endpoint Examples",
       "pages": [
         "api-reference/endpoint/get",
