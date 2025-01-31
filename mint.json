@@ -146,6 +146,74 @@
 
     },
     {
+      "group": "Configurations",
+      "pages": [
+        "api-reference/endpoints/details-2",
+        "api-reference/endpoints/countries",
+        "api-reference/endpoints/language",
+        "api-reference/endpoints/primary-translations",
+        "api-reference/endpoints/timezones",
+        "api-reference/endpoints/jobs"
+      ]
+    },
+    {
+      "group": "Find",
+      "pages": [
+        "api-reference/endpoints/find-by-external-id"
+      ]
+
+    },
+    {
+      "group": "Certifications",
+      "pages": [
+        "api/reference/endpoints/movie-certifications",
+        "api-reference/endpoints/tv-certifications"
+      ]
+
+    },
+    {
+      "group": "Companies",
+      "pages":[
+        "api-reference/endpoints/details-1",
+        "api-reference/endpoints/alternative-names",
+        "api-reference/endpoints/images-1"
+      ]
+
+    },
+    {
+      "group": "Collections",
+      "pages": [
+        "api-reference/endpoints/details",
+        "api-reference/endpoints/images",
+        "api-reference/endpoints/collections"
+      ]
+
+    },
+    {
+      "group": "Discover",
+      "pages": [
+        "api-reference/endpoints/movie",
+        "api-reference/endpoints/tv"
+      ]
+
+    },
+    {
+      "group": "Credits",
+      "pages": [
+        "api-reference/endpoints/details-3"
+      ]
+
+    },
+    {
+      "group": "Changes",
+      "pages": [
+        "api-reference/endpoints/movie-list",
+        "api-reference/endpoints/tv-list",
+        "api-reference/endpoints/people-list"
+      ]
+
+    },
+    {
       "group": "Glossary",
       "pages": [
         "api-reference/glossary"
