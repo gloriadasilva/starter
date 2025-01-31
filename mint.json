@@ -117,6 +117,13 @@
 
     },
     {
+      "group": "Validate Key",
+      "pages": [
+        "api-reference/endpoints/validate-key"
+      ]
+
+    },
+    {
       "group": "Authentication",
       "pages":[
         "api-reference/endpoints/create-request-token",
@@ -125,6 +132,25 @@
         "api-reference/endpoints/delete-session"
       ]
 
+    },
+    {
+      "group": "Guest Session",
+      "pages": [
+        "api-reference/guestoverview",
+        "api-reference/endpoints/guest-sessionid"
+      ]
+
+    },
+    {
+      "group": "Configurations",
+      "pages": [
+        "api-reference/endpoints/details-2",
+        "api-reference/endpoints/countries",
+        "api-reference/endpoints/language",
+        "api-reference/endpoints/primary-translations",
+        "api-reference/endpoints/timezones",
+        "api-reference/endpoints/jobs"
+      ]
     },
     {
       "group": "Account",
@@ -146,15 +172,17 @@
 
     },
     {
-      "group": "Configurations",
+      "group": "Search",
       "pages": [
-        "api-reference/endpoints/details-2",
-        "api-reference/endpoints/countries",
-        "api-reference/endpoints/language",
-        "api-reference/endpoints/primary-translations",
-        "api-reference/endpoints/timezones",
-        "api-reference/endpoints/jobs"
+        "api-reference/endpoints/movie-1",
+        "api-reference/endpoints/tv-1",
+        "api-reference/endpoints/person",
+        "api-reference/endpoints/keyword",
+        "api-reference/endpoints/company",
+        "api-reference/endpoints/collection",
+        "api-reference/endpoints/multi-search"
       ]
+
     },
     {
       "group": "Find",
@@ -210,6 +238,21 @@
         "api-reference/endpoints/movie-list",
         "api-reference/endpoints/tv-list",
         "api-reference/endpoints/people-list"
+      ]
+
+    },
+    {
+      "group": "Genre",
+      "pages": [
+        "api-reference/endpoints/movie-list-1",
+        "api-reference/endpoints/tv-list-1"
+      ]
+
+    },
+    {
+      "group": "Keyword",
+      "pages": [
+        "api-reference/keyword-by-id"
       ]
 
     },
