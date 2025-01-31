@@ -117,17 +117,9 @@
 
     },
     {
-      "group": "Authenticate request",
-      "pages": [
-        "api-reference/authenticaterequesttoken"
-      ]
-
-    },
-    {
       "group": "Authentication",
       "pages":[
         "api-reference/endpoints/create-request-token",
-        "api-reference/authenticaterequesttoken",
         "api-reference/endpoints/create-session-id",
         "api-reference/endpoints/create-session-idwith-login",
         "api-reference/endpoints/delete-session"
@@ -159,14 +151,6 @@
         "api-reference/glossary"
       ]
 
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
     }
   ],
   "footerSocials": {
