@@ -209,7 +209,8 @@
         "api-reference/endpoints/check-item-status",
         "api-reference/endpoints/remove-movie",
         "api-reference/endpoints/clear",
-        "api-reference/endpoints/delete"      ]
+        "api-reference/endpoints/delete"
+      ]
 
     },
     {
