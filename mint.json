@@ -185,9 +185,37 @@
 
     },
     {
+      "group": "Discover",
+      "pages": [
+        "api-reference/endpoints/movie",
+        "api-reference/endpoints/tv"
+      ]
+
+    },
+    {
       "group": "Find",
       "pages": [
         "api-reference/endpoints/find-by-external-id"
+      ]
+
+    },
+    {
+      "group": "List",
+      "pages": [
+        "api-reference/endpoints/v3vsv4",
+        "api-reference/endpoints/create",
+        "api-reference/endpoints/details",
+        "api-reference/endpoints/add-movie",
+        "api-reference/endpoints/check-item-status",
+        "api-reference/endpoints/remove-movie",
+        "api-reference/endpoints/clear",
+        "api-reference/endpoints/delete"      ]
+
+    },
+    {
+      "group": "Keyword",
+      "pages": [
+        "api-reference/endpoints/keyword-by-id"
       ]
 
     },
@@ -218,14 +246,6 @@
 
     },
     {
-      "group": "Discover",
-      "pages": [
-        "api-reference/endpoints/movie",
-        "api-reference/endpoints/tv"
-      ]
-
-    },
-    {
       "group": "Credits",
       "pages": [
         "api-reference/endpoints/details-3"
@@ -246,13 +266,6 @@
       "pages": [
         "api-reference/endpoints/movie-list-1",
         "api-reference/endpoints/tv-list-1"
-      ]
-
-    },
-    {
-      "group": "Keyword",
-      "pages": [
-        "api-reference/keyword-by-id"
       ]
 
     },
