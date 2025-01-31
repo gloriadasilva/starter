@@ -1,0 +1,16 @@
+---
+title: "Error Codes"
+description: "Get to know more about the errors you come across when using TMDB API "
+---
+
+This section contains a list of possible errors you might come across when using our API and how you can resolve the error.
+
+| Error Codes | HTTP Status | Meaning                               | Solution                                         |
+| ----------- | ----------- | ------------------------------------- | ------------------------------------------------ |
+| 3           | 401         | Failed Authentication                 | Enter a valid authentication key.                |
+| 5           | 422         | Invalid Parameters                    | Enter the correct parameters                     |
+| 20          | 422         | Invalid date range                    | The date should be within the range of 14 days   |
+| 22          | 400         | Invalid page number                   | Page number must be within the range of 1 to 100 |
+| 25          | 449         | Rate limit exceeded                   | Try again later                                  |
+| 34          | 404         | Requested response could not be found | Enter the correct resource information           |
+| 47          | 400         | Invalid Input                         | Enter a valid input                              |
