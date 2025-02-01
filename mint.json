@@ -221,14 +221,6 @@
 
     },
     {
-      "group": "Certifications",
-      "pages": [
-        "api/reference/endpoints/movie-certifications",
-        "api-reference/endpoints/tv-certifications"
-      ]
-
-    },
-    {
       "group": "Companies",
       "pages":[
         "api-reference/endpoints/details-1",
@@ -241,8 +233,7 @@
       "group": "Collections",
       "pages": [
         "api-reference/endpoints/details",
-        "api-reference/endpoints/images",
-        "api-reference/endpoints/collections"
+        "api-reference/endpoints/images"
       ]
 
     },
