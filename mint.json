@@ -202,6 +202,23 @@
 
     },
     {
+      "group": "Changes",
+      "pages": [
+        "api-reference/endpoints/movie-list",
+        "api-reference/endpoints/tv-list",
+        "api-reference/endpoints/people-list"
+      ]
+
+    },
+    {
+      "group": "Genre",
+      "pages": [
+        "api-reference/endpoints/movie-list-1",
+        "api-reference/endpoints/tv-list-1"
+      ]
+
+    },
+    {
       "group": "Find",
       "pages": [
         "api-reference/endpoints/find-by-external-id"
@@ -248,22 +265,49 @@
 
     },
     {
-      "group": "Changes",
+      "group": "Network",
       "pages": [
-        "api-reference/endpoints/movie-list",
-        "api-reference/endpoints/tv-list",
-        "api-reference/endpoints/people-list"
+        "api-reference/endpoints/details-6",
+        "api-reference/endpoints/alternative-names-1",
+        "api-reference/endpoints/images=3"
+      ]
+    },
+    {
+      "group": "Movies",
+      "pages": [
+        "api-reference/endpoints/details-5",
+        "api-reference/endpoints/movie-states",
+        "api-reference/endpoints/alternative-title",
+        "api-reference/endpoints/changes",
+        "api-reference/endpoints/credit",
+        "api-reference/endpoints/external-ids",
+        "api-reference/endpoints/images-2",
+        "api-reference/endpoints/keywords",
+        "api-reference/endpoints/latest",
+        "api-reference/endpoints/lists-1",
+        "api-reference/endpoints/recommendations",
+        "api-reference/endpoints/release-dates",
+        "api-reference/endpoints/reviews",
+        "api-reference/endpoints/similar",
+        "api-reference/endpoints/translations-1",
+        "api-reference/endpoints/videos",
+        "api-reference/endpoints/streaming-providers",
+        "api-reference/endpoints/add-ratings",
+        "api-reference/endpoints/delete-rating"
       ]
 
     },
     {
-      "group": "Genre",
-      "pages": [
-        "api-reference/endpoints/movie-list-1",
-        "api-reference/endpoints/tv-list-1"
-      ]
 
+      "group": "Movie Lists",
+      "pages": [
+        "api-reference/endpoints/now-playing",
+        "api-reference/endpoints/popular",
+        "api-reference/endpoints/top-rated",
+        "api-reference/endpoints/upcoming"
+      ]
     },
+
     {
       "group": "Glossary",
       "pages": [
