@@ -187,23 +187,24 @@
 
     },
     {
-      "group": "Find",
+      "group": "Credits",
       "pages": [
-        "api-reference/endpoints/find-by-external-id"
+        "api-reference/endpoints/details-3"
       ]
 
     },
     {
-      "group": "List",
+      "group": "Certifications",
       "pages": [
-        "api-reference/endpoints/v3vsv4",
-        "api-reference/endpoints/create",
-        "api-reference/endpoints/details",
-        "api-reference/endpoints/add-movie",
-        "api-reference/endpoints/check-item-status",
-        "api-reference/endpoints/remove-movie",
-        "api-reference/endpoints/clear",
-        "api-reference/endpoints/delete"
+        "api-reference/endpoints/movie-certifications",
+        "api-reference/endpoints/tv-certifications"
+      ]
+
+    },
+    {
+      "group": "Find",
+      "pages": [
+        "api-reference/endpoints/find-by-external-id"
       ]
 
     },
@@ -215,11 +216,16 @@
 
     },
     {
-      "group": "Companies",
-      "pages":[
-        "api-reference/endpoints/details-1",
-        "api-reference/endpoints/alternative-names",
-        "api-reference/endpoints/images-1"
+      "group": "List",
+      "pages": [
+        "api-reference/endpoints/v3vsv4",
+        "api-reference/endpoints/create",
+        "api-reference/endpoints/details-4",
+        "api-reference/endpoints/add-movie",
+        "api-reference/endpoints/check-item-status",
+        "api-reference/endpoints/remove-movie",
+        "api-reference/endpoints/clear",
+        "api-reference/endpoints/delete"
       ]
 
     },
@@ -227,14 +233,17 @@
       "group": "Collections",
       "pages": [
         "api-reference/endpoints/details",
-        "api-reference/endpoints/images"
+        "api-reference/endpoints/images",
+        "api-reference/endpoints/translations"
       ]
 
     },
     {
-      "group": "Credits",
-      "pages": [
-        "api-reference/endpoints/details-3"
+      "group": "Companies",
+      "pages":[
+        "api-reference/endpoints/details-1",
+        "api-reference/endpoints/alternative-names",
+        "api-reference/endpoints/images-1"
       ]
 
     },
