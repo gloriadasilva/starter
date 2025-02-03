@@ -194,6 +194,12 @@
 
     },
     {
+      "group": "Reviews",
+      "pages": [
+        "api/reference/endpoints/details-8"
+      ]
+    },
+    {
       "group": "Certifications",
       "pages": [
         "api-reference/endpoints/movie-certifications",
@@ -235,7 +241,7 @@
     {
       "group": "List",
       "pages": [
-        "api-reference/endpoints/V3vsv4",
+        "api-reference/endpoints/V3vsv4.mdx",
         "api-reference/endpoints/create",
         "api-reference/endpoints/details-4",
         "api-reference/endpoints/add-movie",
@@ -271,6 +277,16 @@
         "api-reference/endpoints/alternative-names-1",
         "api-reference/endpoints/images-3"
       ]
+    },
+    {
+      "group": "Trending",
+      "pages": [
+        "api-reference/endpoints/all",
+        "api-reference/endpoints/movies",
+        "api-reference/endpoints/people",
+        "api-reference/endpoints/top-rated-1"
+      ]
+
     },
     {
       "group": "Movies",
@@ -395,6 +411,29 @@
         "api-reference/endpoints/available-regions",
         "api-reference/endpoints/movie-providers",
         "api-reference/endpoints/tv-providers"
+      ]
+    },
+    {
+      "group": "People",
+      "pages": [
+        "api/reference/endpoints/details-7",
+        "api/reference/endpoints/changes-1",
+        "api/reference/endpoints/combined-credits",
+        "api/reference/endpoints/external-ids-1",
+        "api/reference/endpoints/images-4",
+        "api/reference/endpoints/latest-1",
+        "api/reference/endpoints/movie-credit",
+        "api/reference/endpoints/tv-credit",
+        "api/reference/endpoints/tagged-images",
+        "api/reference/endpoints/translations-2"
+      ]
+
+    },
+    {
+
+      "group": "People Lists",
+      "pages": [
+        "api/reference/endpoints/popular-1"
       ]
     },
 
