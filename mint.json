@@ -241,7 +241,7 @@
     {
       "group": "List",
       "pages": [
-        "api-reference/endpoints/V3vsv4.mdx",
+        "api-reference/endpoints/V3vsv4",
         "api-reference/endpoints/create",
         "api-reference/endpoints/details-4",
         "api-reference/endpoints/add-movie",
