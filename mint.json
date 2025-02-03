@@ -235,7 +235,7 @@
     {
       "group": "List",
       "pages": [
-        "api-reference/endpoints/v3vsv4",
+        "api-reference/endpoints/V3vsv4",
         "api-reference/endpoints/create",
         "api-reference/endpoints/details-4",
         "api-reference/endpoints/add-movie",
@@ -346,6 +346,56 @@
 
       ]
 
+    },
+    {
+      "group": "TV Seasons",
+      "pages": [
+        "api-reference/endpoints/details-10",
+        "api-reference/endpoints/account-states-1",
+        "api-reference/endpoints/aggregate-credits",
+        "api-reference/endpoints/changes-3",
+        "api-reference/endpoints/credits-1",
+        "api-reference/endpoints/external-ids-3",
+        "api-reference/endpoints/images-6",
+        "api-reference/endpoints/translations-4",
+        "api-reference/endpoints/videos-1",
+        "api-reference/endpoints/streaming-providers-2"
+
+      ]
+
+    },
+    {
+
+      "group": "TV Episodes",
+      "pages": [
+        "api-reference/endpoints/details-11",
+        "api-reference/endpoints/account-states-2",
+        "api-reference/endpoints/changes-4",
+        "api-reference/endpoints/credits-2",
+        "api-reference/endpoints/external-ids-4",
+        "api-reference/endpoints/images-7",
+        "api-reference/endpoints/translations-5",
+        "api-reference/endpoints/videos-2",
+        "api-reference/endpoints/add-ratings-1",
+        "api-reference/endpoints/delete-ratings-1"
+
+      ]
+    },
+    {
+      "group": "TV Episode Groups",
+      "pages": [
+        "api-reference/endpoints/details-12"
+      ]
+
+    },
+    {
+
+      "group": "Watch Providers",
+      "pages": [
+        "api-reference/endpoints/available-regions",
+        "api-reference/endpoints/movie-providers",
+        "api-reference/endpoints/tv-providers"
+      ]
     },
 
     {
