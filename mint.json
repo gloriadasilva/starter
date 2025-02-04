@@ -203,7 +203,7 @@
     {
       "group": "List",
       "pages": [
-        "api-reference/endpoints/overviewlist",
+        "api-reference/overviewlist",
         "api-reference/endpoints/create",
         "api-reference/endpoints/details-4",
         "api-reference/endpoints/add-movie",
@@ -433,6 +433,14 @@
       "pages": [
         "api-reference/endpoints/movie-certifications",
         "api-reference/endpoints/tv-certifications"
+      ]
+
+    },
+    {
+      "group": "Supported Sources",
+      "pages":[
+        "api-reference/supportedsources"
+
       ]
 
     },
