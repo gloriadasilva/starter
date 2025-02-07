@@ -113,7 +113,7 @@
     {
       "group": "Validate Key",
       "pages": [
-        "api-reference/Validate/validate-key"
+        "api-reference/validate-key"
       ]
 
     },
