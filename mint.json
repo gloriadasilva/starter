@@ -29,7 +29,7 @@
     {
       "name": "API Reference",
       "url": "api-reference",
-      "openapi": "/api-reference/openapispec.yaml"
+      "openapi": "/api-reference/openapi.yaml"
     }
   ],
   "anchors": [
@@ -107,13 +107,6 @@
       "group": "Release Dates",
       "pages": [
         "api-reference/releasedates"
-      ]
-
-    },
-    {
-      "group": "Validate Key",
-      "pages": [
-        "api-reference/endpoints/validate-key"
       ]
 
     },
