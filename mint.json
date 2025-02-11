@@ -111,28 +111,6 @@
 
     },
     {
-      "group": "Guest Session",
-      "pages": [
-        "api-reference/guestoverview",
-        "api-reference/endpoints/guest-sessionid"
-      ]
-
-    },
-    {
-      "group": "List",
-      "pages": [
-        "api-reference/overviewlist",
-        "api-reference/endpoints/create",
-        "api-reference/endpoints/details-4",
-        "api-reference/endpoints/add-movie",
-        "api-reference/endpoints/check-item-status",
-        "api-reference/endpoints/remove-movie",
-        "api-reference/endpoints/clear",
-        "api-reference/endpoints/delete"
-      ]
-
-    },
-    {
       "group": "Supported Sources",
       "pages":[
         "api-reference/supportedsources"
@@ -148,6 +126,7 @@
 
     }
   ],
+
   "footerSocials": {
     "x": "https://x.com/mintlify",
     "github": "https://github.com/mintlify",
