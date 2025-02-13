@@ -109,6 +109,19 @@
 
     },
     {
+      "group": "Guest Session",
+      "pages":[
+        "api-reference/guestoverview"
+      ]
+    },
+    {
+      "group": "List",
+      "pages":[
+        "api-reference/overviewlist"
+      ]
+
+    },
+    {
       "group": "Release Dates",
       "pages": [
         "api-reference/releasedates"
