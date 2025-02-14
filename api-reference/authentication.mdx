@@ -1,6 +1,8 @@
 ---
 title: "Authentication"
 description: "Learn how to authenticate your request"
+icon: 'key'
+
 ---
 
 The TMDB API supports two types of authentication. **API keys** and a **Bearer token** authentication.
@@ -49,14 +51,6 @@ To use an API key to authenticate your request, you need to get your API keys. F
 
 </Steps>
 
-
-
-
-
-
-
-
-
 [​](https://starlight.mintlify.app/api-reference/authentication#how-to-use-bearer-token)
 How To Use Bearer Token
 -----------------------
@@ -65,20 +59,34 @@ To use the bearer token to authenticate your request, you need to get your acces
 
 Follow these steps to get an access token:
 
-Step 1: Scroll to your account dashboard.
 
-Step 2: Scroll through the ‘Settings’ section at the left side of the page and click ‘API’.
+<Steps>
+  <Step title="Step 1">
+    Scroll to your account dashboard.
 
-![](https://content.pstmn.io/5607c227-ee03-4ba9-a8f5-314fa87db9de/QXBpLnBuZw==)
+  </Step>
+  <Step title="Step 2">
+    Scroll through the ‘Settings’ section at the left side of the page and click ‘API’.
 
-Step 4: Scroll down and get your Access token in the ‘API Read Access Token’ section.
+   ![](https://content.pstmn.io/5607c227-ee03-4ba9-a8f5-314fa87db9de/QXBpLnBuZw==)
+  </Step>
+  <Step title="Step 3">
+    Scroll down and get your Access token in the ‘API Read Access Token’ section.
 
-![](https://content.pstmn.io/a558441d-844f-4a58-a6dd-df140d651805/cmVhZC5wbmc=)
+   ![](https://content.pstmn.io/a558441d-844f-4a58-a6dd-df140d651805/cmVhZC5wbmc=)
+  </Step>
+  <Step  title="Step 4">
+    After you have gotten your⁣⁣ `Access-token`, set your`Authorization-header` as `Bearer Token`.
+  </Step>
+  <Step title="Step 5">
+    Enter your `Access Token`in the value section.
 
-Step 4: After you have gotten your⁣⁣ `Access-token`, set your`Authorization-header` as `Bearer Token`.
+   <Warning>
+    Your Access token contains sensitive information; therefore, you must keep it secured.
+   </Warning>
+  </Step>
+</Step>
 
-Step 5: Enter your `Access Token`in the value section.
 
-<Warning>
-  Your Access token contains sensitive information; therefore, you must keep it secured.
-</Warning>
+
+
