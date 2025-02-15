@@ -3,7 +3,7 @@
   "name": "TMDB API",
   "logo": {
     "dark": "/images/tmdb.svg",
-    "light": "/logo/light.svg" 
+    "light": "/iamges/tmdb.svg" 
   },
   "favicon": "/tmdb.svg",
   "colors": {
