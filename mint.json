@@ -3,7 +3,7 @@
   "name": "TMDB API",
   "logo": {
     "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "light": "/logo/light.svg" 
   },
   "favicon": "/images/tmdb.svg",
   "colors": {
@@ -52,7 +52,7 @@
         "api-reference/gettingstarted",
         "api-reference/authentication",
         "api-reference/errorcodes",
-        "api-reference/ratelimit",
+        "api-reference/ratedlimit",
         "api-reference/guestoverview",
         "api-reference/overviewlist",
         "api-reference/releasedates",
