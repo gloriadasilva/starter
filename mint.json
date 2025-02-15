@@ -2,7 +2,7 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "TMDB API",
   "logo": {
-    "dark": "/logo/dark.svg",
+    "dark": "/images/tmdb.svg",
     "light": "/logo/light.svg" 
   },
   "favicon": "/tmdb.svg",
