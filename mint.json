@@ -47,59 +47,19 @@
 
     },
     {
-      "group": "Getting Started",
-      "pages":[
-        "api-reference/gettingstarted"
-      ]
-    },
-    {
-      "group": "Authentication",
-      "pages":[
-        "api-reference/authentication"
-      ]
-
-    },
-    {
-      "group": "Error Codes",
-      "pages":[
-        "api-reference/errorcodes"
-      ]
-
-    },
-    {
-      "group": "Rate Limit",
+      "group": "Introduction",
       "pages": [
-        "api-reference/ratelimit"
-      ]
-
-    },
-    {
-      "group": "Guest Session",
-      "pages":[
-        "api-reference/guestoverview"
-      ]
-    },
-    {
-      "group": "List",
-      "pages":[
-        "api-reference/overviewlist"
-      ]
-
-    },
-    {
-      "group": "Release Dates",
-      "pages": [
-        "api-reference/releasedates"
-      ]
-
-    },
-    {
-      "group": "Supported Sources",
-      "pages":[
+        "api-reference/gettingstarted",
+        "api-reference/authentication",
+        "api-reference/errorcodes",
+        "api-reference/ratelimit",
+        "api-reference/guestoverview",
+        "api-reference/overviewlist",
+        "api-reference/releasedates",
         "api-reference/supportedsources"
 
-      ]
 
+      ]
     },
     {
       "group": "Glossary",
