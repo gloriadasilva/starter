@@ -42,8 +42,9 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Glossary",
+            "group": "The Basics",
             "pages": [
+              "api-reference/popularandtrending",
               "api-reference/glossary",
               "api-reference/faq"
             ]
