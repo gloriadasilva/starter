@@ -1,0 +1,18 @@
+---
+title: "JSON  & JSONP"
+description: "Get to know the supported response format in TMDB
+"
+---
+
+The only response format we support is JSON.
+
+If you are using a JavaScript library and need to make requests from another public domain, you can use the `callback` paramater which will encapsulate the JSON response in a JavaScript function for you.
+
+
+
+```http
+curl --request GET \
+     --url 'https://api.themoviedb.org/3/search/movie?query=Batman&callback=test' \
+     --header 'Authorization: Bearer ACCESS_TOKEN' \
+     --header 'accept: application/json'
+```
