@@ -48,13 +48,21 @@
               "api-reference/glossary",
               "api-reference/faq"
             ]
+          },
+          {
+            "group": "Using The API",
+            "pages":[
+              "api-reference/appendtoresponse",
+              "api-reference/FindData",
+              "api-reference/jsonandjsonp"
+            ]
           }
         ]
       }
     ]
   },
   "logo": {
-    "light": "/iamges/tmdbcopy.svg",
+    "light": "/images/tmdbcopy.svg",
     "dark": "/images/tmdb.svg"
   },
   "navbar": {
