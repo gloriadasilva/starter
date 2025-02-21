@@ -1,0 +1,78 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "TMDB API",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373"
+  },
+  "favicon": "/tmdb.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "API Reference",
+        "openapi": {
+          "source": "/api-reference/openapi.yaml",
+          "directory": "api-reference"
+        },
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "api-reference/overview"
+            ]
+          },
+          {
+            "group": "Introduction",
+            "pages": [
+              "api-reference/gettingstarted",
+              "api-reference/authentication",
+              "api-reference/errorcodes",
+              "api-reference/ratedlimit",
+              "api-reference/guestoverview",
+              "api-reference/overviewlist",
+              "api-reference/releasedates",
+              "api-reference/supportedsources"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Glossary",
+            "pages": [
+              "api-reference/glossary"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/iamges/tmdbcopy.svg",
+    "dark": "/images/tmdb.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:hi@mintlify.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://dashboard.mintlify.com"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/mintlify",
+      "github": "https://github.com/mintlify",
+      "linkedin": "https://linkedin.com/company/mintlify"
+    }
+  }
+}
