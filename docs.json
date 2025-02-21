@@ -44,7 +44,8 @@
           {
             "group": "Glossary",
             "pages": [
-              "api-reference/glossary"
+              "api-reference/glossary",
+              "api-reference/faq"
             ]
           }
         ]
