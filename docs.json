@@ -62,7 +62,7 @@
             "pages": [
               "api-reference/sessionid",
               "api-reference/accountid",
-              "api-reference/externalids",
+              "api-reference/externalid",
               "api-reference/keywordid",
               "api-reference/collectionid",
               "api-reference/companyid",
