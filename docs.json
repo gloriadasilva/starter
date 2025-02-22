@@ -56,6 +56,14 @@
               "api-reference/FindData",
               "api-reference/jsonandjsonp"
             ]
+          },
+          {
+            "group": "Important IDs",
+            "pages": [
+              "api-reference/accountid",
+              "api-reference/mediaid",
+              "api-reference/sessionid"
+            ]
           }
         ]
       }
