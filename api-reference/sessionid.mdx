@@ -1,6 +1,8 @@
 ---
 title: "Session ID"
 description: "Know how to get session ID"
+icon: 'person'
+
 ---
 
 There are three main steps involved when creating a `session_id`, they are as follows:
@@ -9,34 +11,34 @@ There are three main steps involved when creating a `session_id`, they are as fo
 
 
 
-\<Steps>
+<Steps>
 
-&#x20; \<Step title = "Step 1">
+  <Step title = "Step 1">
 
-***Create a*** [***request token***](https://starlight.mintlify.app/api-reference/endpoints/create-request-token)**.**&#x20;
+     **Create a [request token](https://starlight.mintlify.app/api-reference/endpoints/create-request-token)**.
 
-This is a temporary token that is required to ask the user for permission to access their account. This token will auto expire after 60 minutes if it's not used
+      This is a temporary token that is required to ask the user for permission to access their account. This token will auto expire after 60 minutes if it's not used
 
-\</Step>
+   </Step>
 
-\<Step title="Step 2">
+  <Step title="Step 2">
 
-**Ask the user for permission**
+     **Ask the user for permission**
 
-Forward your user to this URL to validate your request token.
+      Forward your user to this URL to validate your request token.
 
-`https://www.themoviedb.org/authenticate/{YOUR_REQUEST_TOKEN}`
+      `https://www.themoviedb.org/authenticate/{YOUR_REQUEST_TOKEN}`
 
-\</Step>
+     </Step>
 
-\<Step title="Step 3">
+   <Step title="Step 3">
 
-**Create a Session ID**
+     **Create a Session ID**
 
-Enter your validated request in the Session ID \[endpoint]\(https://starlight.mintlify.app/api-reference/authentication/create-session-id)  token to create your `session_id`.
+      Enter your validated request in the Session ID \[endpoint]\(https://starlight.mintlify.app/api-reference/authentication/create-session-id)  token to create your `session_id`.
 
-\</Step>
+     </Step>
 
 
 
-\</Steps>
+</Steps>
