@@ -60,9 +60,18 @@
           {
             "group": "Important IDs",
             "pages": [
+              "api-reference/sessionid",
               "api-reference/accountid",
+              "api-reference/externalids",
+              "api-reference/keywordid",
+              "api-reference/collectionid",
+              "api-reference/companyid",
+              "api-reference/networkid",
               "api-reference/mediaid",
-              "api-reference/sessionid"
+              "api-reference/seriesid",
+              "api-reference/personid",
+              "api-reference/creditid",
+              "aapi-reference/reviewid"
             ]
           }
         ]
