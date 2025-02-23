@@ -84,7 +84,8 @@
           {
             "group": "External Links",
             "pages": [
-              "api-reference/postman"
+              "api-reference/postman",
+              "api-reference/openapispec"
             ]
           }
         ]
