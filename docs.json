@@ -77,6 +77,18 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "External Links",
+        "groups": [
+          {
+            "group": "External Links",
+            "pages": [
+              "api-reference/postman"
+            ]
+          }
+        ]
+
       }
     ]
   },
