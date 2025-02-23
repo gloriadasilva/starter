@@ -44,6 +44,7 @@
             "group": "Using The API",
             "pages":[
               "api-reference/appendtoresponse",
+              "api-reference/filter",
               "api-reference/popularandtrending",
               "api-reference/FindData",
               "api-reference/jsonandjsonp"
