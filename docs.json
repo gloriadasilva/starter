@@ -41,20 +41,19 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "The Basics",
-            "pages": [
-              "api-reference/popularandtrending",
-              "api-reference/overviewlist",
-              "api-reference/glossary",
-              "api-reference/faq"
-            ]
-          },
-          {
             "group": "Using The API",
             "pages":[
               "api-reference/appendtoresponse",
+              "api-reference/popularandtrending",
               "api-reference/FindData",
               "api-reference/jsonandjsonp"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "api-reference/glossary",
+              "api-reference/faq"
             ]
           },
           {
