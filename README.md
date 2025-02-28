@@ -1,32 +1,40 @@
-# Mintlify Starter Kit
+# Capstone Project for the Technical Writing Mentorship Programme (TWMP)
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+The aim of the capstone project is to gain real-world experience in documenting APIs by revamping the TMDB API documentation.
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+## What is the TMDB API?
 
-### Development
+The Movie Database (TMDB) API is a community-driven API that provides extensive access to a wide range of movies, TV shows, images, and actor information. It allows developers to seamlessly integrate these functionalities into their applications.
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
+## Why Revamp the TMDB API Documentation?
 
-```
-npm i -g mintlify
-```
+The current TMDB API documentation provides comprehensive information on how to use the API. However, there are some inconsistencies, such as improper information architecture and insufficient details on how to retrieve certain parameters.
 
-Run the following command at the root of your documentation (where mint.json is)
+## The Goal of This Project
 
-```
-mintlify dev
-```
+The goal of this project is to revamp the TMDB API documentation to ensure it is accurate, comprehensive, clear, and easy for developers to integrate into their applications.
 
-### Publishing Changes
+## Tools Used in the Project
 
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
+- [Postman](https://www.postman.com/): For documenting endpoints.  
+- [OpenAPI Converter](https://kevinswiber.github.io/postman2openapi/): To convert the OpenAPI Specification from JSON to YAML.  
+- OpenAPI Specification: A standardized format for describing APIs.  
+- Mintlify: An intuitive and interactive platform for documenting APIs.  
 
-#### Troubleshooting
+## Process Involved
 
-- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-- Page loads as a 404 - Make sure you are running in a folder with `mint.json`
+- Documented over 150 endpoints in Postman.  
+- Converted the Postman documentation to an OpenAPI Specification using the OpenAPI Converter.  
+- Uploaded the OpenAPI Specification to Mintlify.  
+
+## Outcome
+
+An updated version of the TMDB API documentation with the following improvements:
+
+- An intuitive and interactive interface.  
+- Clear and concise information about the API.  
+- Detailed instructions on how to retrieve required parameters.  
+- Improved information architecture.  
+
+You can access the live documentation [here](https://starlight.mintlify.app/api-reference/overview).
+
