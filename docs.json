@@ -41,6 +41,13 @@
         "tab": "Guides",
         "groups": [
           {
+            "group": "The Basics",
+            "pages": [
+              "api-reference/theb"
+            ]
+
+          },
+          {
             "group": "Using The API",
             "pages":[
               "api-reference/appendtoresponse",
