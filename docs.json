@@ -18,21 +18,20 @@
         },
         "groups": [
           {
-            "group": "Overview",
+            "group": "Intrduction",
             "pages": [
               "api-reference/overview"
             ]
           },
           {
-            "group": "Introduction",
+            "group": "Getting Started",
             "pages": [
               "api-reference/gettingstarted",
               "api-reference/authentication",
-              "api-reference/errorcodes",
-              "api-reference/ratedlimit",
               "api-reference/guestoverview",
-              "api-reference/releasedates",
-              "api-reference/supportedsources"
+              "api-reference/errorcodes",
+              "api-reference/ratedlimit"
+
             ]
           }
         ]
@@ -54,14 +53,9 @@
               "api-reference/filter",
               "api-reference/popularandtrending",
               "api-reference/FindData",
-              "api-reference/jsonandjsonp"
-            ]
-          },
-          {
-            "group": "Guides",
-            "pages": [
-              "api-reference/glossary",
-              "api-reference/faq"
+              "api-reference/jsonandjsonp",
+              "api-reference/releasedates",
+              "api-reference/supportedsources"
             ]
           },
           {
@@ -81,6 +75,13 @@
               "api-reference/personid",
               "api-reference/creditid",
               "api-reference/reviewid"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "api-reference/glossary",
+              "api-reference/faq"
             ]
           }
         ]
