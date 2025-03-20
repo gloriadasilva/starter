@@ -201,24 +201,27 @@ Welcome to the third version of The Movie Database (TMDB) API. Our API provides 
          <h2 className="text-xl font-semibold">Credentials</h2>
         </div>
 
-     <div className="get-key" style={{ display: "flex", justifyContent: "center" }}>
-         <a  
-           href="https://www.themoviedb.org/login?to=read_me&redirect=%2Freference%2Fintro%2Fgetting-started" 
-           rel="noopener noreferrer"
-          style={{
-            padding: "12px 24px", 
-            backgroundColor: "#28a745", 
-            color: "white", 
-            borderRadius: "6px", 
-            textAlign: "center", 
-            textDecoration: "none",
-            display: "inline-block",
-          }}
-          >
-            Get API Key
-         </a>
-         <div>
-       </div>
+<div style={{ textAlign: "center" }}>
+  <button
+    style={{
+      width: "100%", // Full width inside its container
+      maxWidth: "250px", // Limits button width to prevent excessive stretching
+      padding: "12px 0", // Vertical padding for height
+      backgroundColor: "#007BFF", // Bootstrap-like blue
+      color: "#ffffff", // White text
+      fontWeight: "bold",
+      fontSize: "16px",
+      border: "none",
+      borderRadius: "6px", // Smooth rounded edges
+      cursor: "pointer",
+      transition: "background-color 0.3s ease",
+    }}
+    onMouseOver={(e) => (e.target.style.backgroundColor = "#0056b3")}
+    onMouseOut={(e) => (e.target.style.backgroundColor = "#007BFF")}
+  >
+    Get API Key
+  </button>
+</div>
 
     {/* Authorization Input & Login Button */}
     <div className="p-4 bg-blue-100 dark:bg-blue-800 rounded-lg w-full">
