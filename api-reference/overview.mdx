@@ -7,6 +7,11 @@ icon: "book-open-reader"
 Welcome to the third version of The Movie Database (TMDB) API. Our API provides you with vast access to a range of movies, TV shows, actor information, and images.
 
   <Card>
+        <div className="flex items-center gap-4 mb-4">
+          <div className=" p-2 rounded-full text-white">2</div>
+          <h2 className="text-xl font-semibold">Credentials</h2>
+        </div>
+
     <Tabs>
       <Tab title={
         <div className="flex items-center gap-2">
@@ -197,7 +202,7 @@ Welcome to the third version of The Movie Database (TMDB) API. Our API provides 
 
   <Card>
       <div className="flex items-center gap-4 mb-4">
-         <div className="bg-green-500 p-2 rounded-full text-white">2</div>
+         <div className=" p-2 rounded-full text-white">2</div>
          <h2 className="text-xl font-semibold">Credentials</h2>
         </div>
 
@@ -224,7 +229,7 @@ Welcome to the third version of The Movie Database (TMDB) API. Our API provides 
 </div>
 
     {/* Authorization Input & Login Button */}
-    <div className="p-4 bg-blue-100 dark:bg-blue-800 rounded-lg w-full">
+    <div className="p-4 bg-purple-100 dark:bg-purple-800 rounded-lg w-full">
       <label className="font-semibold text-sm mb-2 block">Header</label>
     
       <div className="relative w-full">
@@ -250,20 +255,6 @@ Welcome to the third version of The Movie Database (TMDB) API. Our API provides 
   </div>
 
   </Card>
-
-  <Card>
-    <div className="flex items-center gap-4 mb-4">
-      <div className="bg-purple-500 p-2 rounded-full text-white">3</div>
-      <h2 className="text-xl font-semibold">Try it!</h2>
-    </div>
-  </Card>
-
-    ```bash
-    curl --request GET \
-    --url https://api.themoviedb.org/3/authentication \
-    --header 'accept: application/json'
-
-    ```
 
 
 [
