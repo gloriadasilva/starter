@@ -19,6 +19,7 @@ Welcome to the third version of The Movie Database (TMDB) API.
       -H "Authorization: Bearer YOUR_API_KEY"
       ```
     </Tab>
+
     <Tab title="Python">
       ```python
       import requests
@@ -28,37 +29,76 @@ Welcome to the third version of The Movie Database (TMDB) API.
       print(response.json())
       ```
     </Tab>
+
+    <Tab title="Ruby">
+      ```ruby
+      require 'net/http'
+      require 'json'
+
+      url = URI("https://api.themoviedb.org/3/authentication")
+      req = Net::HTTP::Get.new(url)
+      req["Authorization"] = "Bearer YOUR_API_KEY"
+
+      res = Net::HTTP.start(url.host, url.port, use_ssl: true) { |http| http.request(req) }
+      puts res.body
+      ```
+    </Tab>
+
+    <Tab title="Node.js">
+      ```javascript
+      const fetch = require('node-fetch');
+
+      const url = "https://api.themoviedb.org/3/authentication";
+      const options = {
+        method: "GET",
+        headers: {
+          "Authorization": "Bearer YOUR_API_KEY"
+        }
+      };
+
+      fetch(url, options)
+        .then(response => response.json())
+        .then(data => console.log(data))
+        .catch(error => console.error("Error:", error));
+      ```
+    </Tab>
+
+    <Tab title="Java">
+      ```java
+      import java.net.HttpURLConnection;
+      import java.net.URL;
+      import java.io.BufferedReader;
+      import java.io.InputStreamReader;
+
+      public class ApiRequest {
+        public static void main(String[] args) {
+          try {
+            String url = "https://api.themoviedb.org/3/authentication";
+            URL obj = new URL(url);
+            HttpURLConnection con = (HttpURLConnection) obj.openConnection();
+
+            con.setRequestMethod("GET");
+            con.setRequestProperty("Authorization", "Bearer YOUR_API_KEY");
+
+            int responseCode = con.getResponseCode();
+            System.out.println("Response Code: " + responseCode);
+
+            BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
+            String inputLine;
+            StringBuffer response = new StringBuffer();
+
+            while ((inputLine = in.readLine()) != null) {
+              response.append(inputLine);
+            }
+            in.close();
+
+            System.out.println(response.toString());
+          } catch (Exception e) {
+            e.printStackTrace();
+          }
+        }
+      }
+      ```
+    </Tab>
   </Tabs>
-</Card>
-
-<Card>
-  <div className="flex items-center gap-4 mb-4">
-    <div className="p-2 rounded-full text-black dark:text-white">2</div>
-    <h2 className="text-xl font-semibold text-black dark:text-white">Credentials</h2>
-  </div>
-
-  <a
-    href="https://www.themoviedb.org/login?to=read_me&redirect=%2Freference%2Fintro%2Fgetting-started"
-    className="block w-full py-3 bg-blue-500 text-white font-bold text-lg text-center no-underline rounded-md transition duration-300 hover:bg-blue-600"
-  >
-    Get API Key
-  </a>
-
-  <div className="p-4 dark:bg-purple-800 rounded-lg w-full mt-4">
-    <label className="font-semibold text-sm mb-2 block">Header</label>
-    <div className="relative w-full">
-      <span className="absolute inset-y-0 left-2 flex items-center text-gray-500">🔒</span>
-      <input
-        type="text"
-        placeholder="Authorization"
-        className="pl-10 pr-4 py-3 w-full border rounded-lg focus:outline-none"
-      />
-    </div>
-    <a
-      href="https://www.themoviedb.org/login?to=read_me&redirect=%2Freference%2Fintro%2Fgetting-started"
-      className="mt-4 bg-blue-500 text-black rounded-lg hover:bg-blue-600 transition w-full block text-center py-3"
-    >
-      🔑 Log in to use your API keys
-    </a>
-  </div>
 </Card>
