@@ -9,18 +9,29 @@ Welcome to the third version of The Movie Database (TMDB) API. Our API provides 
 <Card>
   <div className="flex items-center gap-4 mb-4">
     <div className="p-2 rounded-full text-black dark:text-white">1</div>
-    <h2 className="text-xl font-semibold text-black dark:text-white">Pick a Language</h2>
+    <h2 className="text-xl font-semibold text-black dark:text-white">
+      Pick a Language
+    </h2>
   </div>
 
   <Tabs>
-    <Tab title="Shell">
-      ```bash
-      curl -X GET "https://api.themoviedb.org/3/authentication" \
-        -H "Authorization: Bearer YOUR_API_KEY"
+    <Tab title={
+      <div className="flex items-center gap-2">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="20" height="20" />
+        Shell
+      </div>
+    }>
+      ```
+      curl -X GET "https://api.themoviedb.org/3/authentication" \ -H "Authorization: Bearer YOUR_API_KEY"
       ```
     </Tab>
 
-    <Tab title="Python">
+    <Tab title={
+      <div className="flex items-center gap-2">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20" />
+        Python
+      </div>
+    }>
       ```python
       import requests
 
@@ -32,7 +43,12 @@ Welcome to the third version of The Movie Database (TMDB) API. Our API provides 
       ```
     </Tab>
 
-    <Tab title="Ruby">
+    <Tab title={
+      <div className="flex items-center gap-2">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" width="20" height="20" />
+        Ruby
+      </div>
+    }>
       ```ruby
       require 'net/http'
       require 'json'
@@ -46,7 +62,12 @@ Welcome to the third version of The Movie Database (TMDB) API. Our API provides 
       ```
     </Tab>
 
-    <Tab title="Node.js">
+    <Tab title={
+      <div className="flex items-center gap-2">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="20" height="20" />
+        Node.js
+      </div>
+    }>
       ```javascript
       const fetch = require('node-fetch');
 
@@ -65,7 +86,12 @@ Welcome to the third version of The Movie Database (TMDB) API. Our API provides 
       ```
     </Tab>
 
-    <Tab title="C#">
+    <Tab title={
+      <div className="flex items-center gap-2">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="20" height="20" />
+        C#
+      </div>
+    }>
       ```csharp
       using System;
       using System.Net.Http;
@@ -73,31 +99,36 @@ Welcome to the third version of The Movie Database (TMDB) API. Our API provides 
 
       class Program
       {
-        private static readonly HttpClient client = new HttpClient();
+          private static readonly HttpClient client = new HttpClient();
 
-        static async Task Main()
-        {
-          try
+          static async Task Main()
           {
-            var request = new HttpRequestMessage(HttpMethod.Get, "https://api.themoviedb.org/3/authentication");
-            request.Headers.Add("Authorization", "Bearer YOUR_API_KEY");
+              try
+              {
+                  var request = new HttpRequestMessage(HttpMethod.Get, "https://api.themoviedb.org/3/authentication");
+                  request.Headers.Add("Authorization", "Bearer YOUR_API_KEY");
 
-            HttpResponseMessage response = await client.SendAsync(request);
-            response.EnsureSuccessStatusCode();
+                  HttpResponseMessage response = await client.SendAsync(request);
+                  response.EnsureSuccessStatusCode();
 
-            string responseBody = await response.Content.ReadAsStringAsync();
-            Console.WriteLine(responseBody);
+                  string responseBody = await response.Content.ReadAsStringAsync();
+                  Console.WriteLine(responseBody);
+              }
+              catch (Exception e)
+              {
+                  Console.WriteLine($"Error: {e.Message}");
+              }
           }
-          catch (Exception e)
-          {
-            Console.WriteLine($"Error: {e.Message}");
-          }
-        }
       }
       ```
     </Tab>
 
-    <Tab title="Java">
+    <Tab title={
+      <div className="flex items-center gap-2">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="20" height="20" />
+        Java
+      </div>
+    }>
       ```java
       import java.net.HttpURLConnection;
       import java.net.URL;
@@ -105,14 +136,17 @@ Welcome to the third version of The Movie Database (TMDB) API. Our API provides 
       import java.io.InputStreamReader;
 
       public class ApiRequest {
-        public static void main(String[] args) {
-          try {
-            String url = "https://api.themoviedb.org/3/authentication";
-            URL obj = new URL(url);
-            HttpURLConnection con = (HttpURLConnection) obj.openConnection();
-
-            con.setRequestMethod("GET");
-            con.setRequestProperty("Authorization", "Bearer YOUR_API_KEY");
+          public static void main(String[] args) {
+              try {
+                  String url = "https://api.themoviedb.org/3/authentication";
+                  URL obj = new URL(url);
+                  HttpURLConnection con = (HttpURLConnection) obj.openConnection();
+                  
+                  // Set request method
+                  con.setRequestMethod("GET");
+                  
+                  // Set authorization header
+                  con.setRequestProperty("Authorization", "Bearer YOUR_API_KEY");
 
             int responseCode = con.getResponseCode();
             System.out.println("Response Code: " + responseCode);
@@ -126,16 +160,22 @@ Welcome to the third version of The Movie Database (TMDB) API. Our API provides 
             }
             in.close();
 
-            System.out.println(response.toString());
-          } catch (Exception e) {
-            e.printStackTrace();
+                  // Print response
+                  System.out.println(response.toString());
+              } catch (Exception e) {
+                  e.printStackTrace();
+              }
           }
-        }
       }
       ```
     </Tab>
 
-    <Tab title="PHP">
+    <Tab title={
+      <div className="flex items-center gap-2">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="20" height="20" />
+        PHP
+      </div>
+    }>
       ```php
       <?php
       $apiKey = "YOUR_API_KEY";
@@ -145,7 +185,7 @@ Welcome to the third version of The Movie Database (TMDB) API. Our API provides 
       curl_setopt($ch, CURLOPT_URL, $url);
       curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
       curl_setopt($ch, CURLOPT_HTTPHEADER, [
-        "Authorization: Bearer $apiKey"
+          "Authorization: Bearer $apiKey"
       ]);
 
       $response = curl_exec($ch);
@@ -161,34 +201,51 @@ Welcome to the third version of The Movie Database (TMDB) API. Our API provides 
 <Card>
   <div className="flex items-center gap-4 mb-4">
     <div className="p-2 rounded-full text-black dark:text-white">2</div>
-    <h2 className="text-xl font-semibold text-black dark:text-white">Credentials</h2>
+    <h2 className="text-xl font-semibold text-black dark:text-white">
+      Credentials
+    </h2>
   </div>
 
-  <div className="text-center">
+  <div style={{ textAlign: "center" }}>
     <a
       href="https://www.themoviedb.org/login?to=read_me&redirect=%2Freference%2Fintro%2Fgetting-started"
-      className="block w-full py-3 bg-blue-500 text-white font-bold text-lg text-center no-underline rounded-md transition duration-300 hover:bg-blue-600"
+      style={{
+        display: "block",
+        width: "100%",
+        padding: "12px 0",
+        backgroundColor: "#007BFF",
+        color: "#ffffff",
+        fontWeight: "bold",
+        fontSize: "16px",
+        textAlign: "center",
+        textDecoration: "none",
+        borderRadius: "6px",
+        transition: "background-color 0.3s ease",
+      }}
     >
-      Get API Key
+      Get API KEY
     </a>
-  </div>
 
-  <div className="p-4 dark:bg-purple-800 rounded-lg w-full mt-4">
-    <label className="font-semibold text-sm mb-2 block">Header</label>
-    <div className="relative w-full">
-      <span className="absolute inset-y-0 left-2 flex items-center text-gray-500">🔒</span>
-      <input
-        type="text"
-        placeholder="Authorization"
-        className="pl-10 pr-4 py-3 w-full border rounded-lg focus:outline-none"
-      />
+    <div className="p-4 dark:bg-purple-800 rounded-lg w-full">
+      <label className="font-semibold text-sm mb-2 block">Header</label>
+    
+      <div className="relative w-full">
+        <span className="absolute inset-y-0 left-2 flex items-center text-gray-500">
+          🔒
+        </span>
+        <input 
+          type="text" 
+          placeholder="Authorization"
+          className="pl-10 pr-4 py-3 w-full border rounded-lg focus:outline-none"
+        />
+      </div>
+
+      <a 
+        href="https://www.themoviedb.org/login?to=read_me&redirect=%2Freference%2Fintro%2Fgetting-started"
+        className="mt-4 bg-blue-500 text-black rounded-lg hover:bg-blue-600 transition w-full block"
+      >
+        🔑 Log in to use your API keys
+      </a>
     </div>
-
-    <a
-      href="https://www.themoviedb.org/login?to=read_me&redirect=%2Freference%2Fintro%2Fgetting-started"
-      className="mt-4 bg-blue-500 text-black rounded-lg hover:bg-blue-600 transition w-full block text-center py-3"
-    >
-      🔑 Log in to use your API keys
-    </a>
   </div>
 </Card>
